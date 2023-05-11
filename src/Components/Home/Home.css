@@ -1,0 +1,274 @@
+.container {
+    color: white;
+    padding: 1rem 2rem;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+.colt {
+    color: #880d1e;
+}
+
+.wrapper {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    position: relative;
+}
+
+.wrapper img {
+    /* -webkit-box-reflect: right; */
+    width: 30rem;
+    position: relative;
+    bottom: 0;
+}
+
+.bluecircle {
+    width: 30rem;
+    height: 30rem;
+    border-radius: 50%;
+    z-index: -99;
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(135.74deg, #1b065e 14.09%, #1b065e 83.81%);
+}
+.cart2 {
+    color: black;
+    position: absolute;
+    bottom: 25%;
+    right: 5%;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.cart2 svg {
+    width: 15px;
+    height: 15px;
+    background: white;
+    padding: 10px;
+    border-radius: 50%;
+    border: 6px solid var(--black);
+}
+
+.sighup {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    background: white;
+    padding: 10px;
+    font-size: 0.8rem;
+    border-radius: 15px;
+    box-shadow: 5px 5px #0bb5ff, 10px 10px red, 15px 15px green;
+}
+
+.sighup :first-child {
+    color: black;
+    display: block;
+    /* width: 6rem; */
+}
+
+.sighup :nth-child(2)
+{
+    border-radius: 50%;
+    border: 2px solid skyblue;
+    display: flex;
+    
+}
+
+
+
+.h_side {
+    margin-left: 1.2rem;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.text1 {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    width: min-content;
+    display: block;
+    font-weight: 600;
+}
+
+.text2 {
+    display: flex;
+    flex-direction: column;
+    width: min-content;
+}
+
+.text2 :first-child {
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+
+.text2 :nth-child(2)
+{
+    display: block;
+}
+
+.traffic {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.traffic :first-child {
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+
+.customer {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.customer :first-child{
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+
+
+@media only screen and (min-device-width : 360px) and (max-device-width : 640px) {
+
+    .container {
+        color: white;
+        padding: 1rem 2rem;
+        /* display: grid; */
+        /* grid-template-columns: 1fr 3fr 1fr; */
+    }
+    
+    .colt {
+        color: wheat;
+    }
+    
+    .wrapper {
+        display: flex;
+        align-items: baseline;
+        /* justify-content: center; */
+        /* position: relative; */
+    }
+    
+    .wrapper img {
+        /* -webkit-box-reflect: right; */
+        width: 15rem;
+        position: relative;
+        bottom: 0;
+        margin-right: 5rem;
+    }
+    
+    .bluecircle {
+        margin-right: 5rem;
+        width: 15rem;
+        height: 15rem;
+        border-radius: 50%;
+        z-index: -99;
+        position: absolute;
+        bottom: 0;
+        background: linear-gradient(135.74deg, #1b065e 14.09%, #1b065e 83.81%);
+    }
+    .cart2 {
+        color: black;
+        position: absolute;
+        bottom: 25%;
+        right: 5%;
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+    }
+    
+    .cart2 svg {
+        width: 15px;
+        height: 15px;
+        background: white;
+        padding: 10px;
+        border-radius: 50%;
+        border: 6px solid var(--black);
+    }
+    
+    .sighup {
+        margin-right: 2rem;
+        /* display: flex; */
+        /* gap: 1rem; */
+        align-items: center;
+        background: white;
+        padding: 1px;
+        font-size: 0.8rem;
+        border-radius: 15px;
+        box-shadow: 5px 5px #0bb5ff, 10px 10px red, 15px 15px green;
+    }
+    
+    .sighup :first-child {
+        color: black;
+        display: block;
+        /* width: 6rem; */
+    }
+    
+    .sighup :nth-child(2)
+    {
+        border-radius: 50%;
+        border: 2px solid skyblue;
+        display: flex;
+        
+    }
+    
+    
+    
+    .h_side {
+        /* margin-right: 2rem; */
+        /* margin-right: 7rem; */
+        /* display: grid; */
+        grid-template-rows: 1fr 1fr;
+    }
+    
+    .text1 {
+        text-transform: uppercase;
+        font-size: 1rem;
+        width: min-content;
+        display: block;
+        font-weight: 300;
+    }
+    
+    .text2 {
+        /* margin-left: 5rem; */
+        /* display: flex; */
+        /* flex-direction: column; */
+        width: min-content;
+    }
+    
+    .text2 :first-child {
+        font-weight: 400;
+        font-size: 1.2rem;
+    }
+    
+    .text2 :nth-child(2)
+    {
+        display: block;
+    }
+    
+    .traffic {
+        display: none;
+    }
+    
+    .traffic :first-child {
+        font-weight: 800;
+        font-size: 2.5rem;
+    }
+    
+    .customer {
+        display: none;
+    }
+    
+    
+
+
+}
+
+
+
+
+
+
+

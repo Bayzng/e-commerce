@@ -1,0 +1,95 @@
+.container {
+    position: relative;
+}
+
+.container .swiper {
+    padding: 1rem;
+    width: 473%;
+    height: 13rem;
+    position: unset;
+}
+
+.container .swiper-slide {
+    margin-top: 1rem;
+    margin-left: 11px;
+    background: white;
+    display: flex;
+    border-radius: 10px;
+    padding: 2rem;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+}
+
+.container .swiper-button-prev {
+    left: 1rem;
+}
+
+.container .swiper-button-next {
+    right: 2rem;
+}
+
+.container .swiper-button-prev,.container .swiper-button-next {
+    color: black;
+}
+
+.lefty {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+}
+
+.name :nth-child(1) 
+{
+    color: black;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.name :nth-child(2) 
+{
+    color: #1b065e;
+    font-size: 0.4rem;
+}
+
+.lefty :nth-child(2) {
+    
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.lefty :nth-child(3) {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border: 1px solid var(--black);
+    font-size: 0.6rem;
+    padding: 5px 10px;
+    width: max-content;
+    border-radius: 15px;
+}
+
+.img-product {
+    transform: rotate(-20deg);
+    position: absolute;
+    right: 0;
+    width: 35%;
+    height: 100%;
+    bottom: -20%;
+}
+
+
+@media only screen and (min-device-width : 360px) and (max-device-width : 640px) {
+
+    .just {
+        display: none;
+    }
+    
+    
+    
+}

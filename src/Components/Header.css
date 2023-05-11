@@ -1,0 +1,146 @@
+.mynav {
+    display: none;
+}
+
+.container {
+    margin-right: 2rem;
+    padding: 1.5rem;
+    display: flex;
+}
+
+.dlt {
+    background-color: black;
+    color: green;
+    padding: 3px;
+}
+
+.afr {
+    color: orange;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    gap: 1rem;
+}
+
+.logo img {
+    background-color: black;
+    border-radius: 50%;
+    border: 5px solid rgba(255, 0, 0, 0.756);
+    width: 2.7rem;
+    height: 2.5rem;
+}
+
+.logo span {
+    font-weight: 600;
+}
+
+.right {
+    margin-left: 37rem;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu {
+    display: flex;
+    gap: 2rem;
+    font-weight: 500;
+    list-style: none;
+}
+
+.menu li:hover {
+    color: green;
+    cursor: pointer;
+}
+
+.search {
+    width: 7rem;
+    outline: none;
+    height: 30%;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+
+.cart {
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+}
+
+@media only screen and (min-device-width : 360px) and (max-device-width : 640px){
+    
+    .right {
+        
+        display: none;
+    }
+
+    .container {
+        margin-right: 2rem;
+        padding: 1.5rem;
+        /* display: flex; */
+    }
+    
+    .dlt {
+        background-color: black;
+        color: green;
+        padding: 3px;
+    }
+    
+    .afr {
+        color: orange;
+    }
+    
+    .logo {
+        display: flex;
+        /* align-items: center; */
+        /* flex:÷ 1; */
+        /* gap: 1rem; */
+    }
+    
+    .logo img {
+        background-color: black;
+        border-radius: 50%;
+        border: 5px solid rgba(255, 0, 0, 0.756);
+        width: 2.7rem;
+        height: 2.5rem;
+    }
+    
+    .logo span {
+        font-weight: 600;
+    }
+    
+    
+    .menu {
+        display: flex;
+        gap: 2rem;
+        font-weight: 500;
+        list-style: none;
+    }
+    
+    .menu li:hover {
+        color: green;
+        cursor: pointer;
+    }
+    
+    .search {
+        width: 7rem;
+        outline: none;
+        height: 30%;
+        border: none;
+        border-radius: 5px;
+        padding: 0.5rem;
+    }
+    
+    .cart {
+        width: 1.5rem;
+        height: 1.5rem;
+        cursor: pointer;
+    }
+    
+
+}

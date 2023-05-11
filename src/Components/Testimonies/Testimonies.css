@@ -1,0 +1,208 @@
+.testimonials {
+    margin-top: 4rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 2rem;
+}
+
+.wrappers {
+    display: grid;
+    align-items: flex-end;
+    width: 100%;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.wrappers img {
+    margin-left: 5rem;
+    width: 35rem;
+    justify-self: center;
+}
+
+.contain {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.contain :nth-child(1) {
+    color: #04a777;
+    font-size: 2rem;
+    text-transform: uppercase;
+    display: block;
+    font-weight: bold;
+}
+
+.contain :nth-child(2) {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    display: block;
+}
+
+.wrappers :nth-child(3) {
+    text-align: right;
+}
+
+.reviews {
+    margin-top: 4rem;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+
+.carousal {
+    width: 100%;
+}
+
+.tcarousel {
+    padding: 5rem;
+}
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    color: black;
+    box-shadow: blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(31, 193, 27) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px, rgb(255, 217, 19) 20px -20px, rgb(255, 255, 255) 30px -30px 0px -3px, rgb(255, 156, 85) 30px -30px, rgb(255, 255, 255) 40px -40px 0px -3px, rgb(255, 85, 85) 40px -40px; 
+    /* background-color: #880d1e; */
+    background-color: white;
+    border-radius: 5rem;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    gap: 1rem;
+   
+}
+
+.testimonial :nth-child(2) {
+    font-weight: bold;
+    padding: 1.2rem;
+    margin-top: 1.2rem;
+}
+
+.testimonial img {
+    position: absolute;
+    width: 3rem;
+    top: -1.5rem;
+
+}
+
+.testimonial hr {
+    height: 1px;
+    width: 80%;
+    background: blue;
+}
+
+.bluecircl {
+    width: 25rem;
+    height: 25rem;
+    border-radius: 50%;
+    top: -2rem;
+    margin-left: 5rem;
+    /* z-index: -99; */
+    /* position: absolute; */
+    /* bottom: 0; */
+    background: linear-gradient(135.74deg, #04a777 14.09%, #04a777 83.81%);
+}
+
+
+@media only screen and (min-device-width : 360px) and (max-device-width : 640px) {
+    .testimonials {
+        margin-top: 4rem;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 4rem 2rem;
+    }
+    
+    .wrappers {
+        /* display: none; */
+        align-items: flex-end;
+        width: 100%;
+        grid-template-columns: 1fr 2fr 1fr;
+    }
+    
+    .wrappers img {
+        margin-right: 10rem;
+        width: 15rem;
+    }
+    
+    .contain {
+        display: none;
+        
+    }
+    
+    
+    .wrappers :nth-child(3) {
+        text-align: right;
+    }
+    
+    .reviews {
+        margin-top: 4rem;
+        font-size: 2rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        
+    }
+    
+    .carousal {
+        width: 100%;
+    }
+    
+    .tcarousel {
+        padding: 5rem;
+    }
+    
+    .testimonial {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        color: black;
+        box-shadow: blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(31, 193, 27) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px, rgb(255, 217, 19) 20px -20px, rgb(255, 255, 255) 30px -30px 0px -3px, rgb(255, 156, 85) 30px -30px, rgb(255, 255, 255) 40px -40px 0px -3px, rgb(255, 85, 85) 40px -40px; 
+        /* background-color: #880d1e; */
+        background-color: white;
+        border-radius: 5rem;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+        gap: 1rem;
+       
+    }
+    
+    .testimonial :nth-child(2) {
+        font-weight: bold;
+        padding: 1.2rem;
+        margin-top: 1.2rem;
+    }
+    
+    .testimonial img {
+        position: absolute;
+        width: 3rem;
+        top: -1.5rem;
+    
+    }
+    
+    .testimonial hr {
+        height: 1px;
+        width: 80%;
+        background: blue;
+    }
+    
+    .bluecircl {
+        width: 15rem;
+        height: 15rem;
+        border-radius: 50%;
+        top: -2rem;
+        margin-right: 15rem;
+        /* z-index: -99; */
+        /* position: absolute; */
+        /* bottom: 0; */
+        background: linear-gradient(135.74deg, #04a777 14.09%, #04a777 83.81%);
+    }
+
+}

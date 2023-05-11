@@ -1,0 +1,93 @@
+.containers {
+    padding: 0 2rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.containers h1 span {
+    color: #880d1e;
+}
+
+.containers .cont {
+    position: absolute;
+    width: 15rem;
+    left: 25%;
+    top: -8rem;
+}
+
+.products {
+    display: grid;
+    width: 90%;
+    grid-template-columns: 25% auto;
+}
+
+.menus {
+    color: whitesmoke;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+.menus li:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+.lists{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    height: 20rem;
+    overflow-y: scroll;
+    grid-gap:  2rem;
+    /* justify-content: space-between; */
+}
+
+.product img {
+    width: 4rem;
+    height: 7rem;
+}
+
+.product {
+    width: 12rem;
+    height: 8rem;
+    background: white;
+    position: relative;
+    overflow: hidden;
+    padding: 1rem;
+    display: flex;
+    border-radius: 1rem;
+}
+
+.names {
+    display: flex;
+    flex-direction: column;
+}
+
+.names :nth-child(1) 
+{
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.names :nth-child(2) 
+{
+    font-size: 0.4rem;
+}
+
+.lefty :nth-child(2) {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.img-pro {
+    transform: rotate(-20deg);
+}
+

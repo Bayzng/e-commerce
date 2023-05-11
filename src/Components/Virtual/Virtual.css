@@ -1,0 +1,60 @@
+.virtual {
+    color: white;
+    margin-left: 4rem;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    padding: 2rem;
+    display: grid;
+    justify-content: space-around;
+}
+
+.left {
+    /* margin-left: 6rem; */
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    position: relative;
+}
+
+
+.left :nth-child(1)
+{
+    text-decoration: underline;
+    font-size: 2rem;
+    text-transform: uppercase;
+    display: block;
+    font-weight: bold;
+    
+}
+
+.left :nth-child(2)
+{
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    display: block;
+    width: 20rem;
+}
+
+.left :nth-child(3)
+{
+    color: red;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.left img {
+    position: absolute;
+    width: 7rem;
+    /* margin-left: 2rem; */
+    margin-top: 11rem;
+}
+
+.compare {
+    border: 5px solid #880d1e;
+    width: 33rem;
+    /* margin-right: 7rem; */
+}
+
+.right {
+    margin-right: 5rem;
+}
